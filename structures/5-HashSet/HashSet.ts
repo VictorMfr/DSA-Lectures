@@ -36,3 +36,13 @@ console.log(mySet.size); // 2
 
 mySet.clear(); // removes all elements from the set
 console.log(mySet.size); // 0
+
+
+// Iterations
+const mySetTwo = new Set(["a", "b", "c"]);
+for (const item of mySet) {
+   console.log(item); // a, b, c
+}
+mySet.forEach((value) => {
+   console.log(value); // a, b, c
+});
